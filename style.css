@@ -1,0 +1,246 @@
+.subiz_card {
+  background: #fff;
+  padding: 25px 30px;
+  margin-right: 20px;
+  border-radius: 8px;
+  border: 1px solid #cacaca;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.subiz_card a[href] {
+  text-decoration: none;
+}
+
+.subiz_card a[href]:hover {
+  text-decoration: none;
+}
+
+.subiz_subtitle {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.subiz_header {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.subiz_logo {
+  width: 80px;
+}
+.subiz_d_flex {
+  display: flex;
+}
+.subiz_align_items_center {
+  align-items: center;
+}
+.subiz_w_100 {
+  width: 100%;
+}
+input[type="text"].subiz_input {
+  padding: 3px 8px;
+  font-size: 16px;
+  background-color: #fff;
+  border: 1px solid #cacaca;
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+input[type="text"].subiz_input:hover {
+  outline: 0;
+  border-color: #666;
+}
+
+.subiz_btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 8px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.subiz_btn[disabled] {
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.subiz_btn.primary {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.subiz_btn.primary:hover {
+  color: #fff;
+  background-color: #025ce2;
+  border-color: #025ce2;
+}
+
+.subiz_btn.light {
+  background-color: #e9ecef;
+  border-color: #e9ecef;
+}
+
+.subiz_btn.light:hover {
+  background-color: #d3d9df;
+  border-color: #d3d9df;
+}
+
+.subiz_text_success {
+  color: #19b600;
+}
+
+.subiz_text_muted {
+  opacity: 0.7;
+}
+
+.subiz_text_danger {
+  color: #ea3d2f;
+}
+
+.subiz_submit_result {
+  margin-top: 2px;
+  font-size: 14px;
+}
+
+.subiz_version {
+  margin-top: 30px;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.subiz_switch {
+  display: inline-flex;
+  position: relative;
+  text-indent: -9999px;
+  cursor: pointer;
+  gap: 8px;
+}
+
+.subiz_switch input[type="checkbox"] {
+  display: none;
+  appearance: none;
+}
+
+.subiz_switch_slider {
+  height: 16px;
+  width: 28px;
+  position: relative;
+  background-color: #b3b3b3;
+  border-color: #b3b3b3;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: inset 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.subiz_switch_slider:before {
+  position: absolute;
+  content: "";
+  top: 2px;
+  left: 2px;
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: 0.3s ease;
+  box-shadow:
+    0 2px 4px 0 rgba(0, 0, 0, 0.25),
+    0 1px 1px 0 rgba(0, 0, 0, 0.05);
+}
+
+.subiz_switch_slider.subiz_switch_slider__sm {
+  height: 12px;
+  width: 22px;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: inset 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.subiz_switch_slider.subiz_switch_slider__sm:before {
+  position: absolute;
+  content: "";
+  top: 2px;
+  left: 2px;
+  width: 8px;
+  height: 8px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: 0.3s ease;
+  box-shadow:
+    0 1px 2px 0 rgba(0, 0, 0, 0.25),
+    0 1px 1px 0 rgba(0, 0, 0, 0.05);
+}
+
+input[type="checkbox"]:checked ~ .subiz_switch_slider.subiz_switch_slider__sm:before {
+  left: 12px;
+}
+
+input[type="checkbox"]:checked ~ .subiz_switch_slider {
+  background-color: #19b600;
+  border-color: #19b600;
+}
+
+input[type="checkbox"]:checked ~ .subiz_switch_slider:before {
+  left: 14px;
+}
+
+.subiz_box {
+	max-width: 500px;
+  padding: 10px 15px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+	margin: 10px 0;
+}
+
+.subiz_box:hover {
+  border: 1px solid #888;
+}
+
+.subiz_box__header {
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.subiz_form_title {
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.subiz_cf7_form_link {
+	font-weight: 400;
+	display: none;
+}
+
+.subiz_cf7_form {
+	display: flex;
+}
+
+.subiz_cf7_form:hover .subiz_cf7_form_link {
+	display: inline;
+}
+
+.subiz_cf7_form__enabled .subiz_form_title {
+	color: #777;
+}
+
+.subiz_cf7_form__disabled .subiz_form_title {
+	color: #000;
+}
+
+.subiz_cf7_forms {
+	opacity: 0.5;
+	filter: grayscale(1);
+}
+
+.subiz_cf7_forms.subiz_cf7_forms__enabled {
+	opacity: 1;
+	filter: none;
+}
